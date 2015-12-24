@@ -1,0 +1,26 @@
+<!doctype  html>
+<html>
+<body>
+<h1>lel</h1>
+<div id="myDiv"></div>
+<script>
+var myDiv = document.getElementById("myDiv");
+
+//Create array of options to be added
+var array = ["Volvo","Saab","Mercades","Audi"];
+
+//Create and append select list
+var selectList = document.createElement("select");
+selectList.id = "mySelect";
+myDiv.appendChild(selectList);
+
+//Create and append the options
+for (var i = 0; i < array.length; i++) {
+    var option = document.createElement("option");
+    option.value = array[i];
+    option.text = array[i];
+    selectList.appendChild(option);
+}
+</script>
+</body>
+</html>

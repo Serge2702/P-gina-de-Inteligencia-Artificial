@@ -1,0 +1,30 @@
+Instrucciones para agregar laberintos:
+
+Estas instrucciones son tanto para los laberintos 2D y 3D. 
+
+1.- Colocar los archivos de laberintos .lisp y .js en la carpeta maze_dir.  
+
+2.- Editar el archivo maze_lib.lisp para que cargue el archivo .lisp del
+laberinto.  Por ejemplo: (load "maze_dir/chico.lisp") Esto es casi al inicio del
+archivo, en dicho archivo se indica en que parte.
+
+3.- Añadir a la lista *maze-list* el laberinto.
+
+4.- Editar el archivo laberinto_interfaz para que cargue el archivo .js del
+laberinto. Por ejemplo: <script type="text/javascript" src="maze_dir/chico.js"></script> 
+Esto es dentro de la sección <head> de la página.
+
+5.- Añadir al arreglo maze_list el laberinto. Nótese que el orden de los
+laberintos en este arreglo y en la lista *maze-list* debe ser igual.
+
+
+Un ejemplo del formato de como deben ser los archivos .js y .lisp se encuentra
+en los archivos chico.lisp y chico.js. Es preferible que los dos tengan el mismo
+nombre para evitar confusiones aunque no es indispensable.
+
+En cuanto a los números que representan las celdas de los laberintos, estos se
+encuentra en la página de inicio de ambos laberintos:
+http://idic.likufanele.com/~fundamentosia/Maze2D/ y
+http://idic.likufanele.com/~fundamentosia/Maze3D/, la única diferencia entre
+ambos es que los laberintos 3D incluyen las celdas número 16 y 17 que
+representan los pasos a desnivel.

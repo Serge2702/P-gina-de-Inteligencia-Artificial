@@ -1,0 +1,234 @@
+html,body{
+    background: #f2f0f0;
+    margin:0;
+    padding:0;
+    border: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+p {
+    font-weight: 400;
+    color: #000000;
+}
+
+ul{
+    list-style-type:square;
+}
+
+li{
+padding: 0px 0px 10px 0px;
+}
+
+body{
+    font-family: 'Inconsolata', ;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    background: #F2F0F0;
+}
+
+pre{
+    font-family: 'Inconsolata', ;
+}
+
+table, th, td{
+    border: 0px solid black;
+    /*border: 5px solid white;*/
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+.tabla_izq{
+    text-align: right;
+}
+
+#table_header{
+    width: 100%;
+}
+
+a{
+    padding:0px; 
+    text-decoration:underline; 
+    color:#ad3737;
+}
+
+#container{
+    width:100%;
+    margin:0;
+    /*background: #EEEEEE;*/
+}
+
+#header{
+    clear:both;
+    /*background-color:#82a632;*/
+    background-color:#000000;
+    /*background-color:#888888;*/
+    padding: 0px;
+    height: 70px;
+    /*width: 100%;*/
+}
+
+#header h1{
+   padding: 0px;
+    display: inline;
+    text-align: center;
+    font-weight: 400;
+    color: #FCFCFC;
+    font-size: 48px;
+}
+#header p{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+#nombre_cic{
+    display: inline;
+    color: #FFFFFF;
+}
+
+#logo_ipn{
+    vertical-align:middle;
+    /*float: left;*/
+}
+
+#logo_cic{
+    vertical-align:middle;
+    /*float: right;*/
+}
+
+#content{
+    background: url('Images/sidebar.png') repeat-y;
+    /*background: url('Images/Texture.png') repeat-y;*/
+}
+
+#content img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#navigation h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-color: #000000;
+}
+
+.sidebar
+{
+    background: url('Images/sidebar.png') repeat-y;
+    width: 330px;
+    float: left;
+    padding: 0px 10px 0px 10px;
+    /*background: rgba(255,255,255,0.5);*/
+    /*opacity: 0.6;*/
+}
+
+.sidebar h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    /*background: rgba(255,255,255,0.4);*/
+}
+
+.sidebar h2{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px 10px 0px 10px;
+}
+
+#stats{
+    /*background-color: rgba(255,255,255,0.4);*/
+}
+
+#stats h1{
+    font-size: 24px;
+    font-weight: 400;
+    font-color: #000000;
+}
+
+#stats h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-color: #000000;
+}
+
+#info_archivo h1{
+    font-size: 24px;
+    font-weight: 400;
+    font-color: #000000;
+}
+
+#canvas-container{
+    vertical-align: middle;
+    margin-left: 350px;
+    /*text-align:center;*/
+    /*background: url('Poke1/15.png');*/
+}
+
+.forma{
+    font-weight: 400;
+}
+
+.forma h1{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#instrucciones{
+    width: 750px;
+}
+
+#instrucciones p{
+    margin: 2%;
+    color: #000000;
+}
+
+.main_content{
+    margin-left: 350px;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+    background: #FFFFFF;
+}
+
+#footer{
+    clear:both;
+    width:100%;
+    height: 48px;
+    background:#DDDDE2;
+}
+
+#footer p{
+    text-align: center;
+    margin:0;
+    padding:5px 10px;
+    color: #2d2d2d;
+}
+
+
+#Tabla_Casillas {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#Tabla_Casillas td{
+   border: 1px solid black;
+   padding: 5px 10px 10px 10px;
+   text-align:center;
+}

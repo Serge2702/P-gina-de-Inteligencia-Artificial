@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+<body>
+<p id="texto"></p>
+<script type="text/javascript">
+function check_bit(num_bit,numero){
+    if((numero & (1 << num_bit))!=0)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+document.getElementById("texto").innerHTML = check_bit(3,23);
+</script>
+</body>
+</html>
+
